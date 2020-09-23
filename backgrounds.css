@@ -24,3 +24,24 @@ body {
   background-position: 0% 0%, 100% 100%, center;
   background-size: auto, auto, cover;
 }
+
+/* Clip art background */
+#clipped-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.pexels.com/photos/3379934/pexels-photo-3379934.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#clipped-title h1 {
+  font-size: 300px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
