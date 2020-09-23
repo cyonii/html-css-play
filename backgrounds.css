@@ -1,0 +1,26 @@
+body {
+  padding: 0;
+  margin: 0
+}
+
+/* Utility classes */
+.h-100 {
+  height: 100vh;
+}
+
+.w-100 {
+  width: 100vw;
+}
+
+.wh-100 {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Multiple background images */
+.multiple-bg {
+  background-image: url(http://findicons.com/files/icons/861/tweet_my_web/128/flying_bird.png), url(https://i.imgur.com/FlpE77g.png), url(https://www.nasa.gov/sites/default/files/usdamoscow.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 0% 0%, 100% 100%, center;
+  background-size: auto, auto, cover;
+}
