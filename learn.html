@@ -4,18 +4,44 @@
 <head>
   <meta charset="utf-8">
   <title>Background</title>
+  <link rel="stylesheet" href="https://unpkg.com/reset-css/reset.css">
   <link rel="stylesheet" href="backgrounds.css">
 </head>
 
 <body>
   <!-- Multiple background image -->
-  <div class="multiple-bg wh-100"></div>
+  <section class="multiple-bg wh-100"></section>
 
 
   <!-- Clipart background -->
-  <div class="wh-100" id="clipped-title">
+  <section class="wh-100" id="clipped-title">
     <h1>CLIP ART</h1>
-  </div>
+  </section>
+
+
+  <!-- Gradient background -->
+  <section class="wh-100 linear-gradient-bg"></section>
+  <section class="wh-100 radial-gradient-bg center-all">
+    <strong class="fs-4 small-caps">Radial Gradient</strong>
+  </section>
+  <section class="wh-100 conic-gradient-bg center-all">
+    <strong class="fs-4 small-caps">Conic Radial Gradient</strong>
+  </section>
+
+  <!-- Font -->
+  <section class="wh-100 center-all p-5">
+    <div class="well lean">
+      <h1 class="fs-3">Typography</h1>
+      <p>
+        Line height, the distance between two lines of text
+        (often referred to as leading) is declared using the
+        line-height property. The line-height property accepts
+        all general length values, which we covered in Lesson
+        3, “Getting to Know CSS.”
+      </p>
+      <button class="btn" type="button" name="button">Read more</button>
+    </div>
+  </section>
 </body>
 
 </html>
