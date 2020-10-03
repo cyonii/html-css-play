@@ -1,0 +1,119 @@
+:root {
+  /* --width-25: 25%; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  background-color: #15324a;
+}
+
+.nav-logo {
+  padding: 0 0.5rem;
+  border-radius: 2px;
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: #7ab2e8;
+  background-color: #eee;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  padding: 0 0.25rem;
+  display: inline-flex;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 0 0.5rem;
+}
+
+.nav-link {
+  padding: 0.25rem 0.5rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+/* Components section */
+.play-focus {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.focus-components {
+  max-width: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+@media (min-width: 576px) {
+  .focus-components {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.focus-link {
+  height: 200px;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid #285880;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 2px #ddd;
+  overflow: hidden;
+  background-color: #285880;
+  font-size: 16px;
+  opacity: 0.95;
+  transition: 0.3s;
+}
+
+.focus-link:hover {
+  box-shadow: 0 0 3px #ddd;
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.focus-badge {
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 2px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 0 3px #50a7f0;
+  transition: 0.3s;
+}
+
+.focus-link:hover .focus-badge {
+  box-shadow: 0 -3px 8px #78baf2;
+}
