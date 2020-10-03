@@ -32,12 +32,18 @@ header {
   background-color: #15324a;
 }
 
+/* Utility classes */
+.text-white {
+  color: #fff;
+}
+
 .nav-logo {
   padding: 0.25rem 0.5rem;
   border-radius: 2px;
   font-family: monospace;
   font-size: 1.5em;
-  color: #7ab2e8;
+  font-weight: bold;
+  color: #15324a;
   background-color: #eee;
 }
 
