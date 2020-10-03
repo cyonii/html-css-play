@@ -8,7 +8,7 @@ Just some stuffs I made while learning HTML and CSS
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/cyonii/html-css-play/46bf8bb87531a23fe0baa18f466dc3b1e2ab1f13/index.html)
+[Live Demo Link](https://raw.githack.com/cyonii/html-css-play/main/index.html)
 
 ## Authors
 
