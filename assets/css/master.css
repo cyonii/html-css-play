@@ -31,10 +31,10 @@ header {
 }
 
 .nav-logo {
-  padding: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 2px;
   font-family: monospace;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: #7ab2e8;
   background-color: #eee;
 }
