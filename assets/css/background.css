@@ -66,7 +66,6 @@ section {
 
 .conic-gradient-bg {
   height: 400px;
-  background-image: conic-gradient(from 130deg, #cc7620, red);
-  /* background: conic-gradient(red, orange, yellow, green, blue, indigo, violet);
-  background: conic-gradient(black 0 33%, yellow 0 66%, red 0 99%); */
+  background: conic-gradient(#7c2525, #8b7575);
+  border: 1px solid #bbb;
 }
