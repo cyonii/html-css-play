@@ -5,40 +5,6 @@ section {
   text-align: center;
 }
 
-.header {
-  justify-content: center;
-}
-
-.section-title {
-  padding: 0.5rem 1rem;
-  margin: 0;
-  border: 1px solid #eee;
-  border-radius: 2px;
-  background-color: #000;
-  color: #fff;
-  position: absolute;
-  left: 10%;
-  top: 20%;
-  border margin: auto;
-}
-
-.section-desc {
-  padding: 1rem;
-  border-radius: 0 0 2px 2px;
-  background-color: #292929;
-  text-align: left;
-  font-weight: 300;
-  color: #ddd;
-}
-
-.photo-credit {
-  position: relative;
-  padding: 10px;
-  font-size: 14px;
-  font-weight: 300;
-  color: #bbb;
-}
-
 /* BACKGROUNDS */
 /* multiple background images */
 .multiple-bg {
@@ -83,7 +49,8 @@ section {
 /* gradient background */
 .linear-gradient-bg {
   height: 400px;
-  background-image: linear-gradient(45deg, #cc7620 40%, #a83a3a 50%, #143e5d 40%);
+  background-image:
+    linear-gradient(45deg, #cc7620 40%, #a83a3a 50%, #143e5d 40%);
   /* background-image: repeating-linear-gradient(45deg, yellow, yellow 10px, red 10px, red 20px); */
 }
 
@@ -99,7 +66,7 @@ section {
 
 .conic-gradient-bg {
   height: 400px;
-  background-image: conic-gradient(from 130deg, #cc7620, #red);
+  background-image: conic-gradient(from 130deg, #cc7620, red);
   /* background: conic-gradient(red, orange, yellow, green, blue, indigo, violet);
   background: conic-gradient(black 0 33%, yellow 0 66%, red 0 99%); */
 }
