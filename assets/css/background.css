@@ -1,146 +1,105 @@
+section {
+  max-width: 800px;
+  margin: auto auto 2.5rem auto;
+  position: relative;
+  text-align: center;
+}
+
 .header {
   justify-content: center;
 }
 
-/* --------------
-Utility classes
--------------- */
-/* Lengths */
-.h-100 {
-  height: 100vh;
+.section-title {
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  border margin: auto;
 }
 
-.w-100 {
-  width: 100vw;
+.section-desc {
+  padding: 1rem;
+  border-radius: 0 0 2px 2px;
+  background-color: #292929;
+  text-align: left;
+  font-weight: 300;
+  color: #ddd;
 }
 
-.wh-100 {
-  height: 100vh;
-  width: 100vw;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.lean {
-  transform: rotate(-10deg);
-  transform-origin: bottom left;
-  transition: .5s;
-}
-
-.lean:hover {
-  transform: rotate(0deg)
-}
-
-/* Box model properties */
-.p-5 {
-  padding: 5rem;
-}
-
-/* Positioning */
-.center-all {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* ---------------------
- Typography classes
- --------------------- */
-.fs-1 {
-  font-size: 1rem;
-}
-
-.fs-2 {
-  font-size: 2rem;
-}
-
-.fs-3 {
-  font-size: 3rem;
-}
-
-.fs-4 {
-  font-size: 4rem;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-/* COMPONENTS */
-.well {
-  width: 400px;
-  max-width: 100%;
-  background: #eee;
-  box-shadow: 2px 2px 2px 2px #ccc;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-  padding: 2em;
-}
-
-/* -- buttons -- */
-.btn {
-  outline: none;
-  border: 1px solid #ccc;
-  background-color: #fefefe;
-  border-radius: 0.1rem;
-  padding: 0.5rem 1.5rem;
-  cursor: pointer;
-  box-shadow: 0.25rem 0.25rem #000;
-  font-size: 1em;
-  filter: brightness(1);
-}
-
-.btn:hover {
-  opacity: 0.8;
-  filter: brightness(0.95);
-  transition: all .3s;
+.photo-credit {
+  position: relative;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #bbb;
 }
 
 /* BACKGROUNDS */
 /* multiple background images */
 .multiple-bg {
-  background-image: url(http://findicons.com/files/icons/861/tweet_my_web/128/flying_bird.png), url(https://i.imgur.com/FlpE77g.png), url(https://www.nasa.gov/sites/default/files/usdamoscow.jpg);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 0% 0%, 100% 100%, center;
-  background-size: auto, auto, cover;
+  /* max-width: 800px; */
+  height: 400px;
+  margin: auto;
+  border-radius: 2px 2px 0 0;
+  background-image:
+    url(../images/692.png),
+    url(../images/cy-burst.png),
+    url(../images/3906140.jpg);
+  background-repeat: no-repeat;
+  background-position: 47.5% 85%, 47% 100%, center;
+  background-size: 150px, 140px, cover;
 }
 
 /* clip art background */
-#clipped-title {
+.clipped-title {
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://images.pexels.com/photos/3379934/pexels-photo-3379934.jpeg);
+  background-image: url(../images/3906140.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  background-color: #bbb;
 }
 
-#clipped-title h1 {
-  font-size: 300px;
+.clipped-title h1 {
+  font-size: 6rem;
   text-align: center;
+  /* text-shadow: 0 0 2px rgba(224, 45, 45, 0.5); */
   margin: 0;
   padding: 0;
 }
 
 /* gradient background */
 .linear-gradient-bg {
+  height: 400px;
   background-image: linear-gradient(45deg, #cc7620 40%, #a83a3a 50%, #143e5d 40%);
   /* background-image: repeating-linear-gradient(45deg, yellow, yellow 10px, red 10px, red 20px); */
 }
 
 .radial-gradient-bg {
+  height: 400px;
   background-image: radial-gradient(circle closest-corner at 35%, #cc7620 40%, #143e5d 4%);
-  /* background-image: repeating-radial-gradient(circle at 50% 50%, #eee, #ccc 50px); */
+}
+
+.radial-gradient-bg-spiral {
+  height: 400px;
+  background-image: repeating-radial-gradient(circle at 80% 20%, #eee, #ccc 30px);
 }
 
 .conic-gradient-bg {
-  background-image: conic-gradient(from 130deg, #cc7620, #143e5d);
+  height: 400px;
+  background-image: conic-gradient(from 130deg, #cc7620, #red);
   /* background: conic-gradient(red, orange, yellow, green, blue, indigo, violet);
   background: conic-gradient(black 0 33%, yellow 0 66%, red 0 99%); */
 }
