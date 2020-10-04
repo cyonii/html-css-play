@@ -28,15 +28,15 @@ a {
 
 .header h1 {
   color: #aaa;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
-  line-height: 4rem;
 }
 
 /* Grid container */
 .grid-container {
   max-width: 800px;
-  height: 400px;
+  height: 250px;
+  padding: 1rem;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
