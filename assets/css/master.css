@@ -30,27 +30,19 @@ a:hover {
 }
 
 .header {
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #15324a;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
-  -ms-align-items: space-between;
   align-items: center;
-  padding: 0.5rem;
-  background-color: #15324a;
-  margin-bottom: 1rem;
 }
 
-.header h1 {
-  color: #aaa;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-/* Utility classes */
-.text-white {
-  color: #fff;
-}
-
-.nav-logo {
+.nav-title {
+  margin: 0;
   padding: 0.25rem 0.5rem;
   border-radius: 2px;
   font-family: monospace;
@@ -60,25 +52,59 @@ a:hover {
   background-color: #eee;
 }
 
-.navbar {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .nav-list {
-  padding: 0 0.25rem;
+  margin: 0;
+  padding: 0;
   display: inline-flex;
   list-style: none;
 }
 
 .nav-item {
-  padding: 0 0.5rem;
+  padding: 0;
+  display: inline;
 }
 
 .nav-link {
+  /* padding: 0 0.5rem; */
   padding: 0.25rem 0.5rem;
   font-size: 18px;
+  line-height: 18px;
   color: #fff;
+}
+
+/* Utility classes */
+.text-white {
+  color: #fff;
+}
+
+/* Section components */
+.section-title {
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+.section-desc {
+  padding: 1rem;
+  border-radius: 0 0 2px 2px;
+  background-color: #292929;
+  text-align: left;
+  font-weight: 300;
+  color: #ddd;
+}
+
+.photo-credit {
+  position: relative;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #bbb;
 }
 
 /* Components section */
