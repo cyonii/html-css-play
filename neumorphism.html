@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neumorphism</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/neumorphism.css">
+</head>
+
+<body>
+  <main>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-5 col-xl-3 text-center py-5" id="iPhone">
+          <h6>Enter Passcode</h6>
+          <p class="text-muted text-sm fw-light lh-1">
+            <small>Your passcode is required <br> to enable face ID</small>
+          </p>
+
+          <div class="d-flex justify-content-center" id="indicator">
+            <span class="bg-secondary"></span>
+            <span class="ms-2 bg-secondary"></span>
+            <span class="mx-2 bg-secondary"></span>
+            <span class="bg-secondary"></span>
+          </div>
+
+          <!-- Number key row -->
+          <div class="row justify-content-center gx-0 gy-2 mt-5" id="number-row">
+            <div class="col-4"><button class="btn num-btn">1</button></div>
+            <div class="col-4"><button class="btn num-btn">2</button></div>
+            <div class="col-4"><button class="btn num-btn">3</button></div>
+            <div class="col-4"><button class="btn num-btn">4</button></div>
+            <div class="col-4"><button class="btn num-btn">5</button></div>
+            <div class="col-4"><button class="btn num-btn">6</button></div>
+            <div class="col-4"><button class="btn num-btn">7</button></div>
+            <div class="col-4"><button class="btn num-btn">8</button></div>
+            <div class="col-4"><button class="btn num-btn">9</button></div>
+            <div class="col-4"><button class="btn num-btn">0</button></div>
+          </div>
+        </div>
+        <div class="col-12 text-center mt-5">
+          <button class="btn btn-light fw-bold border px-5" type="button" id="purgeCache">Purge</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script>
+    const purgeCache = document.getElementById('purgeCache');
+    purgeCache.onclick = () => window.location.reload(true);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+html {
+  --primary: #e0e5ec;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--primary);
+}
+
+#iPhone {
+  width: 253.60629921px;
+  height: 522.70866142px;
+  border-radius: 24px;
+  box-shadow: -4px -4px 8px 0 rgb(255, 255, 255), 4px 4px 6px 0 rgba(0, 0, 0, 0.301);
+}
+
+.num-btn {
+  background-color: var(--primary);
+  width: 50px;
+  height: 50px;
+  box-shadow: -2px -2px 4px 0 rgb(255, 255, 255), 2px 2px 4px 0 rgba(0, 0, 0, 0.301);
+  border-radius: 50%;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(145, 145, 145);
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+#indicator span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
