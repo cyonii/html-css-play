@@ -26,9 +26,22 @@ body {
   font-weight: normal;
   font-size: 20px;
   color: rgb(145, 145, 145);
+  transition: 0.3s;
 }
 
-.text-sm {
+.num-btn:active,
+.num-btn:hover {
+  box-shadow: inset -1px -1px 1px 0 rgba(209, 209, 209, 0.795),
+    inset 1px -1px 1px 0 rgba(209, 209, 209, 0.795), inset -1px 1px 1px 0 rgba(209, 209, 209, 0.795),
+    inset 1px 1px 1px 0 rgba(209, 209, 209, 0.795);
+}
+
+.num-btn:focus {
+  box-shadow: inset -2px -2px 4px 0 rgb(255, 255, 255), inset 2px 2px 4px 0 rgba(0, 0, 0, 0.301);
+  color: dodgerblue;
+}
+
+.fs-sm {
   font-size: 14px;
 }
 
