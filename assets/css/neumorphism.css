@@ -29,16 +29,22 @@ body {
   transition: 0.3s;
 }
 
-.num-btn:active,
 .num-btn:hover {
   box-shadow: inset -1px -1px 1px 0 rgba(209, 209, 209, 0.795),
     inset 1px -1px 1px 0 rgba(209, 209, 209, 0.795), inset -1px 1px 1px 0 rgba(209, 209, 209, 0.795),
     inset 1px 1px 1px 0 rgba(209, 209, 209, 0.795);
+  color: dodgerblue;
+}
+
+.num-btn:active {
+  box-shadow: inset -6px -6px 4px 0 rgb(255, 255, 255), inset 4px 4px 4px 0 rgba(0, 0, 0, 0.301) !important;
+  color: dodgerblue;
+  font-size: 18px;
 }
 
 .num-btn:focus {
-  box-shadow: inset -2px -2px 4px 0 rgb(255, 255, 255), inset 2px 2px 4px 0 rgba(0, 0, 0, 0.301);
-  color: dodgerblue;
+  box-shadow: inset -2px -2px 4px 0 rgb(255, 255, 255), inset 2px 2px 4px 0 rgba(0, 0, 0, 0.301),
+    inset 2px 2px 4px 0 rgb(255, 255, 255), inset -2px -2px 4px 0 rgba(0, 0, 0, 0.301);
 }
 
 .fs-sm {
