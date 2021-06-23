@@ -10,7 +10,7 @@ body {
   background: var(--primary);
 }
 
-#iPhone {
+.phone-outter {
   width: 253.60629921px;
   height: 522.70866142px;
   border-radius: 24px;

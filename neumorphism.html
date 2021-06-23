@@ -10,43 +10,50 @@
   <link rel="stylesheet" href="assets/css/neumorphism.css">
 </head>
 
-<body>
+<body class="py-5">
   <main>
-    <div class="container mt-5">
+    <div class="container">
       <div class="row justify-content-center">
-        <div class="col-sm-6 col-md-5 col-xl-3 d-flex flex-column text-center pt-5 pb-4" id="iPhone">
-          <h6>Enter Passcode</h6>
-          <p class="text-muted fs-sm fw-light lh-1">
-            <small>Your passcode is required <br> to enable face ID</small>
-          </p>
+        <div class="col-auto">
+          <div class="phone-outter d-flex flex-column m-auto text-center pt-5 pb-4">
+            <h6>Enter Passcode</h6>
+            <p class="text-muted fs-sm fw-light lh-1">
+              <small>Your passcode is required <br> to enable face ID</small>
+            </p>
 
-          <!-- Input indicators -->
-          <div class="d-flex justify-content-center" id="indicator">
-            <span class="bg-secondary"></span>
-            <span class="ms-2 bg-secondary"></span>
-            <span class="mx-2 bg-secondary"></span>
-            <span class="bg-secondary"></span>
-          </div>
+            <!-- Input indicators -->
+            <div class="d-flex justify-content-center" id="indicator">
+              <span class="bg-secondary"></span>
+              <span class="ms-2 bg-secondary"></span>
+              <span class="mx-2 bg-secondary"></span>
+              <span class="bg-secondary"></span>
+            </div>
 
-          <!-- Number keys row -->
-          <div class="row justify-content-center gx-0 gy-2 mt-5" id="number-row">
-            <div class="col-4"><button class="btn num-btn">1</button></div>
-            <div class="col-4"><button class="btn num-btn">2</button></div>
-            <div class="col-4"><button class="btn num-btn">3</button></div>
-            <div class="col-4"><button class="btn num-btn">4</button></div>
-            <div class="col-4"><button class="btn num-btn">5</button></div>
-            <div class="col-4"><button class="btn num-btn">6</button></div>
-            <div class="col-4"><button class="btn num-btn">7</button></div>
-            <div class="col-4"><button class="btn num-btn">8</button></div>
-            <div class="col-4"><button class="btn num-btn">9</button></div>
-            <div class="col-4"><button class="btn num-btn">0</button></div>
-          </div>
+            <!-- Number keys row -->
+            <div class="row justify-content-center gx-0 gy-2 mt-5" id="number-row">
+              <div class="col-4"><button class="btn num-btn">1</button></div>
+              <div class="col-4"><button class="btn num-btn">2</button></div>
+              <div class="col-4"><button class="btn num-btn">3</button></div>
+              <div class="col-4"><button class="btn num-btn">4</button></div>
+              <div class="col-4"><button class="btn num-btn">5</button></div>
+              <div class="col-4"><button class="btn num-btn">6</button></div>
+              <div class="col-4"><button class="btn num-btn">7</button></div>
+              <div class="col-4"><button class="btn num-btn">8</button></div>
+              <div class="col-4"><button class="btn num-btn">9</button></div>
+              <div class="col-4"><button class="btn num-btn">0</button></div>
+            </div>
 
-          <div class="d-flex justify-content-between mt-auto">
-            <a class="text-decoration-none fw-light fs-sm link-secondary" href="#">Emergency</a>
-            <a class="text-decoration-none fw-light fs-sm link-secondary" href="#">Cancel</a>
+            <div class="d-flex justify-content-between px-3 mt-auto">
+              <a class="text-decoration-none fw-light fs-sm link-secondary" href="#">Emergency</a>
+              <a class="text-decoration-none fw-light fs-sm link-secondary" href="#">Cancel</a>
+            </div>
           </div>
         </div>
+
+        <div class="col-auto">
+          <div class="phone-outter d-flex flex-column m-auto text-center pt-5 pb-4"></div>
+        </div>
+
         <div class="col-12 text-center mt-5">
           <button class="btn btn-light fw-bold border px-5" type="button" id="purgeCache">Purge</button>
         </div>
