@@ -15,7 +15,7 @@ Just some stuffs I made while learning HTML and CSS
 👤 **CY Kalu**
 
 - GitHub: [@cyonii](https://github.com/cyonii)
-- Twitter: [@theOnuoha](https://twitter.com/theOnuoha)
+- Twitter: [@theOnuoha](https://twitter.com/__cypy__)
 
 ## 🤝 Contributing
 
